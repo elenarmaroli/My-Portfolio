@@ -189,7 +189,7 @@ h2 {
 }
 
 .work {
-    height: 60rem;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -408,7 +408,7 @@ footer {
         font-size: 65px;
     }
     .work {
-        height: 77rem;
+        height: 1550px;
     }
     .project1, .project2, .project3, .project4 {
         width: 500px;
