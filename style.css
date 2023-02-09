@@ -484,20 +484,17 @@ footer {
         margin-top: 7rem;
     }
     .work-wrapper {
-        width: 100%;
+        margin: 0px auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .work {
-        margin-left: 15%;
-        margin-right: 15%;
-        width: 70%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 1fr 1fr;
-        grid-gap: 70px;
+        grid-gap: 30px;
     }
     .project1, .project2, .project3, .project4 {
         width: 450px;
