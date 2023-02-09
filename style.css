@@ -13,6 +13,10 @@ font-family: 'Martian Mono', monospace;
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     width: 100vw;
     height: 100%;
@@ -189,12 +193,11 @@ h2 {
 }
 
 .work {
-    height: 60rem;
+    /* height: 90vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
 }
 
 .project1, .project2, .project3, .project4 {
@@ -205,6 +208,7 @@ h2 {
     justify-content: center;
     text-align: center;
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .project1 {
@@ -239,14 +243,10 @@ h2 {
     background-blend-mode: saturation;
 }
 
-.project1:hover p, .project2:hover p, .project3:hover p, .project4:hover p {
-    display: none;
-}
-
 .project1:hover {
     background-image: url(./Images/project-1.jpg);
     background-size: cover;
-}
+} 
 
 .project2:hover {
     background-image: url(./Images/project-2.jpg);
@@ -273,6 +273,36 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+.flip-out-ver-left:hover {
+	-webkit-animation: flip-out-ver-left 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: flip-out-ver-left 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes flip-out-ver-left {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateY(-70deg);
+              transform: rotateY(-70deg);
+      opacity: 0;
+    }
+  }
+  @keyframes flip-out-ver-left {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateY(-70deg);
+              transform: rotateY(-70deg);
+      opacity: 0;
+    }
+  } 
 
 /*Contact*/ 
 form {
@@ -405,9 +435,9 @@ footer {
     h2 {
         font-size: 65px;
     }
-    .work {
+    /* .work {
         height: 77rem;
-    }
+    } */
     .project1, .project2, .project3, .project4 {
         width: 500px;
         height: 350px;
@@ -454,14 +484,16 @@ footer {
         margin-top: 7rem;
     }
     .work-wrapper {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .work {
-        width: 48rem;
-        height: 33rem;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 1fr 1fr;
@@ -470,6 +502,9 @@ footer {
     .project1, .project2, .project3, .project4 {
         width: 450px;
         height: 300px;
+    }
+    button {
+        width: 6rem;
     }
 }
 @media only screen and (min-width: 1440px) {
