@@ -30,6 +30,7 @@ body {
     color: #CB1C8D;
     line-height: 1.5rem;
     font-size: small;
+    overflow-x: hidden;
 }
 /*NavBar*/ 
 nav {
@@ -166,6 +167,7 @@ h1:hover {
 .social-media {
     display: flex;
     justify-content: center;
+    margin: 0px auto;
 }
 
 .fa-github {
