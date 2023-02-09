@@ -6,7 +6,6 @@ font-family: 'Martian Mono', monospace;
 */
 
 /*Mobile*/
-
 * {
     margin: 0;
     padding: 0;
@@ -32,13 +31,13 @@ body {
     font-size: small;
     overflow-x: hidden;
 }
+
 /*NavBar*/ 
 nav {
     width: 100vw;
     position: sticky;
     top: 5px;
     margin-bottom: 2rem;
-    margin-top: 0.5rem;
     z-index: 1;
 }     
 
@@ -66,9 +65,6 @@ nav a:hover {
     font-weight: 500;
     border: 2px solid #7F167F;
     color: #7F167F;
-    /* background: linear-gradient(145deg, #dfd3d9, #fffaff);
-    box-shadow:  5px 5px 10px #e9dce3,
-    -5px -5px 10px #fff8ff; */
 }
 
 a {
@@ -77,7 +73,6 @@ a {
 }
 
 /*About*/
-
 .propic {
     display: flex;
     justify-content: center;
@@ -109,6 +104,7 @@ h1:hover {
     color: #CB1C8D;
 }
 
+/*H1 animation*/
 .tilt-in-right-2 {
 	-webkit-animation: tilt-in-right-2 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: tilt-in-right-2 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -140,7 +136,6 @@ h1:hover {
   }
 
 .about p {
-    font-size: small;
     background-color: #dfd3d986;
     width: 14rem;
     padding: 20px;
@@ -153,15 +148,13 @@ h1:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 2rem;
 }
 
 .skills {
-    width:10rem;
     color: #7F167F !important;
     padding: 5px;
-    margin-bottom: 2rem;
     margin-top: 0.5rem;
-
 }
 
 .social-media {
@@ -183,7 +176,6 @@ h1:hover {
 }
 
 /*Work*/ 
-
 h2 {
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -194,7 +186,6 @@ h2 {
 }
 
 .work {
-    /* height: 90vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -275,6 +266,7 @@ h2 {
     justify-content: center;
 }
 
+/*Projects Animation*/
 .flip-out-ver-left:hover {
 	-webkit-animation: flip-out-ver-left 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: flip-out-ver-left 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -314,7 +306,6 @@ form {
     padding: 20px;
     border-radius: 8px;
     color:#7F167F;
-    font-size: small;
 } 
 
 input, textarea {
@@ -369,7 +360,6 @@ button:hover {
 }
 
 /*Arrow Up*/
-
 .up {
     width: 100%;
     display: flex;
@@ -378,14 +368,14 @@ button:hover {
     margin-bottom: 2rem;
 }
 
-.up a{
+.up a {
     width: 65px;
     height: 65px;
     font-size: 55px;
     border-radius: 100px;
     background-color: #7F167F;
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     padding-top: 5px;
 }
 
@@ -423,6 +413,7 @@ footer {
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-end;
+        margin-bottom: 2rem;
     }
     .intro p {
         width: 20rem;
@@ -430,15 +421,10 @@ footer {
     .skills {
         margin-left: 1rem;
         margin-right: 2rem;
-        margin-bottom: -0.07rem;
-        margin-bottom: 2rem;
     }
     h2 {
         font-size: 65px;
     }
-    /* .work {
-        height: 77rem;
-    } */
     .project1, .project2, .project3, .project4 {
         width: 500px;
         height: 350px;
@@ -474,7 +460,6 @@ footer {
     .skills {
         margin-left: 1rem;
         margin-right: 2rem;
-        margin-bottom: -0.07rem;
     }
     .social-media i {
         font-size: 3rem;
