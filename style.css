@@ -17,7 +17,7 @@ body {
     width: 100vw;
     height: 100%;
     content: "";
-    background-image: url(../Images/background.jpeg);
+    background-image: url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/background.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -210,7 +210,7 @@ h2 {
 .project1 {
     background-image:
     linear-gradient(black, black),
-    url(../Images/project-1.jpg);
+    url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-1.jpg);
     background-size: cover;
     background-blend-mode: saturation;
 }
@@ -218,7 +218,7 @@ h2 {
 .project2 {
     background-image:
     linear-gradient(black, black),
-    url(../Images/project-2.jpg);
+    url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-2.jpg);
     background-size: cover;
     background-blend-mode: saturation;
 }
@@ -226,7 +226,7 @@ h2 {
 .project3 {
     background-image:
     linear-gradient(black, black),
-    url(../Images/project-3.jpg);
+    url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-3.jpg);
     background-size: cover;
     background-blend-mode: saturation;
 }
@@ -234,7 +234,7 @@ h2 {
 .project4 {
     background-image:
     linear-gradient(black, black),
-    url(../Images/project-4.jpeg);
+    url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-4.jpeg);
     background-size: cover;
     background-blend-mode: saturation;
 }
@@ -244,22 +244,22 @@ h2 {
 }
 
 .project1:hover {
-    background-image: url(../Images/project-1.jpg);
+    background-image: url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-1.jpg);
     background-size: cover;
 }
 
 .project2:hover {
-    background-image: url(../Images/project-2.jpg);
+    background-image: url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-2.jpg);
     background-size: cover;
 }
 
 .project3:hover {
-    background-image: url(../Images/project-3.jpg);
+    background-image: url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-3.jpg);
     background-size: cover;
 }
 
 .project4:hover {
-    background-image: url(../Images/project-4.jpeg);
+    background-image: url(https://raw.githubusercontent.com/elenarmaroli/My-Portfolio/main/Images/project-4.jpeg);
     background-size: cover;
 }
 
