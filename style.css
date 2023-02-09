@@ -189,7 +189,7 @@ h2 {
 }
 
 .work {
-    height: 1200px;
+    height: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -376,15 +376,15 @@ footer {
     body {
         font-size: medium;
     }
-    h1 {
-        font-size: 4.5rem;
-        line-height: 4rem;
-        margin-right: 3rem;
-    }
     .propic img {
         width: 250px;
         height: 250px;
         border-radius: 150px;
+    }
+    h1 {
+        font-size: 4.5rem;
+        line-height: 4rem;
+        margin-right: 3rem;
     }
     .intro {
         margin-left: 2rem;
@@ -400,15 +400,13 @@ footer {
         margin-left: 1rem;
         margin-right: 2rem;
         margin-bottom: -0.07rem;
-    }
-    .social-media {
-        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     h2 {
         font-size: 65px;
     }
     .work {
-        height: 1550px;
+        height: 77rem;
     }
     .project1, .project2, .project3, .project4 {
         width: 500px;
@@ -417,5 +415,65 @@ footer {
 }
 /*Desktop*/
 @media only screen and (min-width: 1024px){
-
+    nav, form, button, .find, .work {
+        font-size: large;
+    }
+    h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-right: 4rem;
+    }
+    .propic img {
+        width: 270px;
+        height: 270px;
+        border-radius: 150px;
+    }
+    .intro {
+        margin-left: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-bottom: 2rem;
+    }
+    .intro p {
+        width: 27rem;
+        font-size: large;
+    }
+    .skills {
+        margin-left: 1rem;
+        margin-right: 2rem;
+        margin-bottom: -0.07rem;
+    }
+    .social-media i {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 75px;
+        margin-bottom: 3rem;
+        margin-top: 7rem;
+    }
+    .work-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .work {
+        width: 48rem;
+        height: 33rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr;
+        grid-gap: 70px;
+    }
+    .project1, .project2, .project3, .project4 {
+        width: 450px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    h1 {
+        font-size: 6.5rem;
+    }
 }
