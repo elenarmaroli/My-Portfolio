@@ -13,7 +13,7 @@
 
 ## Introduction
 In this portfolio project I am showcasing my main works, experience and background, as well as offering the chance to contact me. Built using MERN Stack and UI/UX fully designed by me. 
-Deployed version available [here]:(https://elena-armaroli-portfolio.onrender.com/)
+Deployed version available [here](https://elena-armaroli-portfolio.onrender.com/)
 
 # Developers
 This is an individual project, meaning I am the only developer behind it. I also completely designed the UI and UX of the website. You can find me [here](https://github.com/elenarmaroli).
