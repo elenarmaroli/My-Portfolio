@@ -178,7 +178,7 @@ h1:hover {
 
 /*Work*/
 h2 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   font-family: "Bungee", cursive;
   color: #7f167f;
@@ -213,6 +213,16 @@ h2 {
   background-blend-mode: saturation;
 }
 
+.project-description {
+  font-size: small;
+  background-color: #dfd3d986;
+  padding: 20px;
+  width: 350px;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
 .project2 {
   background-image: linear-gradient(black, black),
     url(./Images/spotify-react-app.png);
@@ -244,6 +254,7 @@ h2 {
 
 .project3:hover {
   background-image: url(./Images/faker-app.png);
+  
   background-size: cover;
 }
 
@@ -449,6 +460,11 @@ footer {
     width: 500px;
     height: 350px;
   }
+
+  .project-description {
+    width: 450px;
+    margin-bottom: 1rem;
+  }
 }
 
 /*Desktop*/
@@ -513,6 +529,10 @@ footer {
   .project4 {
     width: 450px;
     height: 300px;
+  }
+  .project-description {
+    width: 450px;
+    margin-bottom: 1rem;
   }
   form {
     width: 70%;
